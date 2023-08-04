@@ -1,5 +1,5 @@
 # Orion Library
-This documentation is for the stable release of Orion Library.
+This documentation is copied from [Orion Library](https://github.com/shlexware/Orion)
 
 ## Booting the Library
 ```lua
@@ -53,7 +53,7 @@ Name = <string> - The name of the section.
 ```
 You can add elements to sections the same way you would add them to a tab normally.
 
-## Notifying the user
+## Sending A Notification
 ```lua
 OrionLib:MakeNotification({
 	Name = "Title!",
@@ -72,7 +72,7 @@ Time = <number> - The duration of the notfication.
 
 
 
-## Creating a Button
+## Adding a Button
 ```lua
 Tab:AddButton({
 	Name = "Button!",
@@ -179,7 +179,7 @@ CoolLabel:Set("Label New!")
 ```
 
 
-## Creating a Paragraph
+## Creating / Adding a Paragraph
 ```lua
 Tab:AddParagraph("Paragraph","Paragraph Content")
 ```
@@ -190,7 +190,7 @@ CoolParagraph:Set("Paragraph New!", "New Paragraph Content!")
 ```
 
 
-## Creating an Adaptive Input
+## Creating an Adaptive Input | Adding a ``textbox``
 ```lua
 Tab:AddTextbox({
 	Name = "Textbox",
