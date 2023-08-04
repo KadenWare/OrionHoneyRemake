@@ -27,7 +27,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 
 
 
-## Creating a Tab
+## Creating a Tab | Adding a ``<b>sidebar</b> Button`` (Tab) to your UI
 ```lua
 local Tab = Window:MakeTab({
 	Name = "Tab 1",
@@ -53,7 +53,7 @@ Name = <string> - The name of the section.
 ```
 You can add elements to sections the same way you would add them to a tab normally.
 
-## Sending A Notification
+## Notifying The User | Make a ``Notification``
 ```lua
 OrionLib:MakeNotification({
 	Name = "Title!",
