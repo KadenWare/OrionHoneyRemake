@@ -3,14 +3,14 @@ This documentation is copied from [Orion Library](https://github.com/shlexware/O
 
 ## Booting the Library | Starting ``OrionH``
 ```lua
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local HoneyLibrary = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 ```
 
 
 
 ## Creating a Window | Adding a Gui to your game 
 ```lua
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = HoneyLibrary:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -55,7 +55,7 @@ You can add elements to sections the same way you would add them to a tab normal
 
 ## Notifying The User | Make a ``Notification``
 ```lua
-OrionLib:MakeNotification({
+HoneyLibrary:MakeNotification({
 	Name = "Title!",
 	Content = "Notification content... what will it say??",
 	Image = "rbxassetid://4483345998",
@@ -268,7 +268,7 @@ Dropdown:Set("dropdown option")
 # Finishing your script (REQUIRED)
 The below function needs to be added at the end of your code.
 ```lua
-OrionLib:Init()
+HoneyLibrary:Init()
 ```
 
 ### How flags work.
@@ -282,7 +282,7 @@ Tab1:AddToggle({
     Flag = "toggle"
 })
 
-print(OrionLib.Flags["toggle"].Value) -- prints the value of the toggle.
+print(HoneyLibrary.Flags["toggle"].Value) -- prints the value of the toggle.
 ```
 Flags only work with the toggle, slider, dropdown, bind, and colorpicker.
 
@@ -295,5 +295,5 @@ Config files are made for every game the library is launched in.
 
 ## Destroying the Interface
 ```lua
-OrionLib:Destroy()
+HoneyLibrary:Destroy()
 ```
