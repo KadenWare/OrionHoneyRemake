@@ -27,7 +27,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 
 
 
-## Creating a Tab | Adding a ``<b>sidebar</b> Button`` (Tab) to your UI
+## Creating a Tab | Adding a ``sidebar Button`` (Tab) to your UI
 ```lua
 local Tab = Window:MakeTab({
 	Name = "Tab 1",
