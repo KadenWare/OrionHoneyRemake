@@ -3,7 +3,7 @@ This documentation is copied from [Orion Library](https://github.com/shlexware/O
 
 ## Booting the Library | Starting ``OrionH``
 ```lua
-local HoneyLibrary = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local HoneyLibrary = loadstring(game:HttpGet(('https://raw.githubusercontent.com/KadenWare/OrionHoneyRemake/main/source')))()
 ```
 
 
