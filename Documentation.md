@@ -1,14 +1,14 @@
 # Orion Library
 This documentation is copied from [Orion Library](https://github.com/shlexware/Orion)
 
-## Booting the Library
+## Booting the Library | Starting ``OrionH``
 ```lua
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 ```
 
 
 
-## Creating a Window
+## Creating a Window | Adding a Gui to your game 
 ```lua
 local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
